@@ -1,0 +1,31 @@
+import Hero from './Hero';
+import HeroAlt from './HeroAlt';
+import Features from './Features';
+import FeaturesAlt from './FeaturesAlt';
+import ProductsGrid from './ProductsGrid';
+import ProductsGridAlt from './ProductsGridAlt';
+import Team from './Team';
+import TeamAlt from './TeamAlt';
+import Pricing from './Pricing';
+import PricingAlt from './PricingAlt';
+import Testimonials from './Testimonials';
+import TestimonialsAlt from './TestimonialsAlt';
+import FAQ from './FAQ';
+import FAQAlt from './FAQAlt';
+
+export default (blockManager, prefix) => {
+  Hero(blockManager, prefix);
+  HeroAlt(blockManager, prefix);
+  Features(blockManager, prefix);
+  FeaturesAlt(blockManager, prefix);
+  ProductsGrid(blockManager, prefix);
+  ProductsGridAlt(blockManager, prefix);
+  Team(blockManager, prefix);
+  TeamAlt(blockManager, prefix);
+  Pricing(blockManager, prefix);
+  PricingAlt(blockManager, prefix);
+  Testimonials(blockManager, prefix);
+  TestimonialsAlt(blockManager, prefix);
+  FAQ(blockManager, prefix);
+  FAQAlt(blockManager, prefix);
+}; 

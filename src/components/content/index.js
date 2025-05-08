@@ -1,0 +1,31 @@
+import Hero from './Hero';
+import HeroAlt from './HeroAlt';
+import Features from './Features';
+import FeaturesAlt from './FeaturesAlt';
+import ProductsGrid from './ProductsGrid';
+import ProductsGridAlt from './ProductsGridAlt';
+import Team from './Team';
+import TeamAlt from './TeamAlt';
+import Pricing from './Pricing';
+import PricingAlt from './PricingAlt';
+import Testimonials from './Testimonials';
+import TestimonialsAlt from './TestimonialsAlt';
+import FAQ from './FAQ';
+import FAQAlt from './FAQAlt';
+
+export default (editor, prefix) => {
+  Hero(editor, prefix);
+  HeroAlt(editor, prefix);
+  Features(editor, prefix);
+  FeaturesAlt(editor, prefix);
+  ProductsGrid(editor, prefix);
+  ProductsGridAlt(editor, prefix);
+  Team(editor, prefix);
+  TeamAlt(editor, prefix);
+  Pricing(editor, prefix);
+  PricingAlt(editor, prefix);
+  Testimonials(editor, prefix);
+  TestimonialsAlt(editor, prefix);
+  FAQ(editor, prefix);
+  FAQAlt(editor, prefix);
+}; 
